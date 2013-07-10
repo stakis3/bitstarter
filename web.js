@@ -7,7 +7,7 @@ var str_contents = buf_contents.toString();
 
 
 app.get('/', function(request, response) {
-  response.send('str_contents');
+  response.send(str_contents);
 });
 
 var port = process.env.PORT || 5000;
